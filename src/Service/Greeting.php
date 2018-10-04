@@ -1,6 +1,8 @@
 <?php
 namespace App\Service;
 
+use Psr\Log\LoggerInterface;
+
 class Greeting
 {
     private $logger;
